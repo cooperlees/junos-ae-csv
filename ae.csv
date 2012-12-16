@@ -1,0 +1,29 @@
+#Interface,Description,vlan-ids,physical-ints|physical-int2|..|physical-intX
+NW-NG-0:ae3,Barrys VLAN,Barry,Node0:xe-0/0/7|Node2:xe-0/0/7
+NW-NG-0:ae4,EVS,EVS_CTL_C EVS_MEDIA_A EVS_MEDIA_B,Node1:xe-0/0/7|Node3:xe-0/0/7
+NW-NG-0:ae5,VLAN for awesome pr0n,pr0n,Node0:xe-0/0/8|Node2:xe-0/0/8
+NW-NG-0:ae6,Quantel,NEWS_QUANTEL,Node1:xe-0/0/8|Node3:xe-0/0/8
+NW-NG-0:ae7,QMG/VizRT,VIZ_PRES_GFX,Node0:xe-0/0/9|Node2:xe-0/0/9
+NW-NG-0:ae8,QMC,,Node1:xe-0/0/9|Node3:xe-0/0/9
+NW-NG-0:ae9,Harris,AUTO_HARRIS,Node0:xe-0/0/10|Node2:xe-0/0/10
+NW-NG-0:ae10,Vantage,,Node1:xe-0/0/10|Node3:xe-0/0/10
+NW-NG-0:ae11,KVMs,KVM,Node0:xe-0/0/11|Node2:xe-0/0/11
+NW-NG-0:ae12,Vista,ETZ_VISTALINK,Node1:xe-0/0/11|Node3:xe-0/0/11
+NW-NG-0:ae13,MultiViewers,ETZ_MULTIVIEWER,Node0:xe-0/0/12|Node2:xe-0/0/12
+NW-NG-0:ae14,K2,K2_CTL K2_FTP K2_MEDIA_A K2_MEDIA_B K2_MEDIA_C K2_MEDIA_D,Node1:xe-0/0/12|Node3:xe-0/0/12
+NW-NG-0:ae15,Transfer Switches,,Node0:xe-0/0/13|Node2:xe-0/0/13
+#NW-NG-0:ae16,, <-- Script can ignore lines :)
+#NW-NG-0:ae17,,
+#NW-NG-0:ae18,,
+#NW-NG-0:ae19,,
+NW-NG-0:ae20,LG Generic Access,,Node0:xe-0/0/24|Node2:xe-0/0/24
+NW-NG-0:ae21,Ground Generic Access,,Node1:xe-0/0/24|Node3:xe-0/0/24
+NW-NG-0:ae22,L1 Generic Access,,Node0:xe-0/0/25|Node2:xe-0/0/25
+NW-NG-0:ae23,L2 Generic Access,,Node1:xe-0/0/25|Node3:xe-0/0/25
+NW-NG-0:ae24,LG KVM Access,,Node0:xe-0/0/26|Node2:xe-0/0/26
+NW-NG-0:ae25,G KVM Access,,Node1:xe-0/0/26|Node3:xe-0/0/26
+NW-NG-0:ae26,L2 KVM Access,,Node0:xe-0/0/27|Node2:xe-0/0/27
+NW-NG-0:ae27,LG EVS Access,,Node1:xe-0/0/27|Node3:xe-0/0/27
+NW-NG-0:ae28,G EVS Access,,Node0:xe-0/0/28|Node2:xe-0/0/28
+NW-NG-0:ae29,L1 EVS Access,,Node1:xe-0/0/28|Node3:xe-0/0/28
+#NW-NG-0:ae30.0,,
