@@ -29,13 +29,13 @@ def printConf(data):
     ae = aeReg.sub(data[0], aeConf)
     ae = descReg.sub(data[1], ae)
     ae = vlanReg.sub(data[2], ae)
-    print ae
+    print(ae)
     for aInt in INTS:
         tempInt = phyReg.sub(aInt, phyConf)
         tempInt = aeReg.sub(data[0], tempInt)
-        print tempInt
+        print(tempInt)
 
-    print ""
+    print("")
     return True
 
 
@@ -45,7 +45,6 @@ for line in csvf:
         continue
     line = line.strip()
     data = line.split(",")
-    # 	print data #DEBUG
     printConf(data)
 
 csvf.close()
